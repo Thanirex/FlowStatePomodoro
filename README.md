@@ -1,4 +1,4 @@
-# <? Flow Mode
+# Flow Mode
 
 > A serene Pomodoro timer inspired by Japanese minimalism. Find your focus, stay in flow.
 
@@ -240,7 +240,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Inspired by the Pomodoro Technique® by Francesco Cirillo
 - Design philosophy influenced by Japanese minimalism and *wabi-sabi*
-- Built with love for the productivity community
+- Built for the Flow State people
 
 ---
 
