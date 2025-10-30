@@ -16,12 +16,25 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   title: 'Flow Mode - Find Your Focus',
   description: 'A serene Pomodoro timer inspired by Japanese minimalism. Stay focused and productive.',
-  keywords: ['pomodoro', 'timer', 'productivity', 'focus', 'Japanese', 'minimalist'],
+  keywords: ['pomodoro', 'timer', 'productivity', 'focus', 'Japanese', 'minimalist', 'zen', 'meditation', 'work timer'],
   authors: [{ name: 'Flow Mode' }],
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     title: 'Flow Mode - Find Your Focus',
     description: 'A serene Pomodoro timer inspired by Japanese minimalism',
     type: 'website',
+    siteName: 'Flow Mode',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Flow Mode - Find Your Focus',
+    description: 'A serene Pomodoro timer inspired by Japanese minimalism',
   },
 };
 
