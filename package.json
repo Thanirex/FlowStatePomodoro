@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A serene Pomodoro timer app with Japanese-inspired design",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
